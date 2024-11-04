@@ -2,12 +2,12 @@ project_name: "ga_four"
 
 ## Connection Constants:
 constant: GA4_CONNECTION {
-  value: "bq-looker-marketplace"
+  value: "google_analytics_test_data" 
   export: override_required
 }
 
 constant: GA4_SCHEMA {
-  value: "ga4_export"
+  value: "bytecode-website-ga4-export.analytics_463368501"
   export: override_optional
 }
 
